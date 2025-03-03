@@ -9,7 +9,7 @@ class BasePage:
         self.driver = driver
 
     # поиск элемента
-    @allure.title('Найти элемент на странице')
+    @allure.step('Найти элемент на странице')
     def find_element_with_wait(self, locator):
         WebDriverWait(self.driver, 15).until(EC.visibility_of_element_located(locator))
         return self.driver.find_element(*locator)

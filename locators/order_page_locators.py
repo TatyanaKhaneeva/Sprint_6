@@ -16,7 +16,6 @@ class OrderPageLocators:
     ORDER_RENT_TITLE = By.XPATH, '//div[text()="Про аренду"]'
     INPUT_RENT_DATE = By.XPATH, '//input[@placeholder = "* Когда привезти самокат"]'
     SELECT_DATE = By.XPATH, '//div[@tabindex="0" and contains(@class, "react-datepicker__day")]'
-    #SELECT_DATE = By.XPATH, '//*[contains(@class, "react-datepicker__day") and text()="{}"]'
     INPUT_RENTAL_PERIOD = By.XPATH, '//div[@class="Dropdown-placeholder" and text()="* Срок аренды"]'
     SELECT_RENTAL_PERIOD = By.XPATH, '//div[@class="Dropdown-option" and text()="{}"]'
     COLOUR_CHECKBOX = By.XPATH, '//*[@id="{}"]'
